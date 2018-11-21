@@ -23,10 +23,8 @@ public class MBAMapper2 extends  Mapper<LongWritable, Text, Text, Text> {
 			
 	int[] masks = new int[n];
 			
-	for (int i = 0; i < n; i++) {
+	for (int i = 0; i < n; i++)
 		masks[i] = (1<<i);
-	}
-		
 			
 	for (int i = 0; i < (1 << n); i++){				
 				
